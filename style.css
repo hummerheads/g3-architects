@@ -4,7 +4,45 @@
 }
 
 header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+li > a{
     text-decoration: none;
+}
+nav> h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner .content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-discription{
+    color: #727272;
+}
+.primary-button{
+    
 }
